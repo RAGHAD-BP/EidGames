@@ -1,0 +1,165 @@
+.background1{
+    background-image: url(../Image/EidBackground1.jpeg);
+}
+.box {
+  background-color: white;
+  width: 60%;
+  min-height: 400px;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+  justify-items: center;
+  border-style: dashed;
+  border-width: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-image: repeating-linear-gradient(
+    90deg,
+    #FFB3D1  0px,   #FFB3D1  20px,
+    #FFDAC1  20px,  #FFDAC1  40px,
+    #B5EAD7  40px,  #B5EAD7  60px,
+    #FFFFD1  60px,  #FFFFD1  80px,
+    #C7CEEA  80px,  #C7CEEA  100px,
+    #FFD6E7  100px, #FFD6E7  120px
+  ) 1;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.games{
+    display: flex;
+    justify-content: center ;
+    height:60%;
+    width:90%; 
+    gap:20;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    font-size:20px;
+    font-style:bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ion--balloon-sharp1 {
+    height:110px;
+    width:110px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23ffb0d9' d='M391 307.27c32.75-46.35 46.59-101.63 39-155.68C416.47 55.59 327.38-11.54 231.38 2S68.24 104.53 81.73 200.53c7.57 53.89 36.12 103.16 80.37 138.74c26.91 21.64 57.59 36.1 86.05 41.33l-8.36 45.23a8 8 0 0 0 9 9.38L279 431c15.9 35.87 41.65 60.48 78.41 75l14.88 5.88l11.77-29.75l-14.88-5.89c-26.35-10.42-44.48-26.16-57-49.92l21.84-3.07a8 8 0 0 0 6.05-11.49l-20.49-41.16c25.98-12.87 51.49-35.18 71.42-63.33m-160.82 15.66c-41.26-16.32-76.3-52.7-91.45-94.94l-5.4-15.06l30.12-10.8l5.4 15.06c14.5 40.44 47.27 65.77 73.1 76l14.88 5.88l-11.77 29.76Z'/%3E%3C/svg%3E");
+}
+#ion--balloon-sharp2 {
+    height:110px;
+    width:110px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23cdfbcc' d='M391 307.27c32.75-46.35 46.59-101.63 39-155.68C416.47 55.59 327.38-11.54 231.38 2S68.24 104.53 81.73 200.53c7.57 53.89 36.12 103.16 80.37 138.74c26.91 21.64 57.59 36.1 86.05 41.33l-8.36 45.23a8 8 0 0 0 9 9.38L279 431c15.9 35.87 41.65 60.48 78.41 75l14.88 5.88l11.77-29.75l-14.88-5.89c-26.35-10.42-44.48-26.16-57-49.92l21.84-3.07a8 8 0 0 0 6.05-11.49l-20.49-41.16c25.98-12.87 51.49-35.18 71.42-63.33m-160.82 15.66c-41.26-16.32-76.3-52.7-91.45-94.94l-5.4-15.06l30.12-10.8l5.4 15.06c14.5 40.44 47.27 65.77 73.1 76l14.88 5.88l-11.77 29.76Z'/%3E%3C/svg%3E");
+}
+#ion--balloon-sharp3 {
+    height:110px;
+    width:110px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23fbf8cc' d='M391 307.27c32.75-46.35 46.59-101.63 39-155.68C416.47 55.59 327.38-11.54 231.38 2S68.24 104.53 81.73 200.53c7.57 53.89 36.12 103.16 80.37 138.74c26.91 21.64 57.59 36.1 86.05 41.33l-8.36 45.23a8 8 0 0 0 9 9.38L279 431c15.9 35.87 41.65 60.48 78.41 75l14.88 5.88l11.77-29.75l-14.88-5.89c-26.35-10.42-44.48-26.16-57-49.92l21.84-3.07a8 8 0 0 0 6.05-11.49l-20.49-41.16c25.98-12.87 51.49-35.18 71.42-63.33m-160.82 15.66c-41.26-16.32-76.3-52.7-91.45-94.94l-5.4-15.06l30.12-10.8l5.4 15.06c14.5 40.44 47.27 65.77 73.1 76l14.88 5.88l-11.77 29.76Z'/%3E%3C/svg%3E");
+}
+#ion--balloon-sharp4 {
+    height:110px;
+    width:110px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23cce6fb' d='M391 307.27c32.75-46.35 46.59-101.63 39-155.68C416.47 55.59 327.38-11.54 231.38 2S68.24 104.53 81.73 200.53c7.57 53.89 36.12 103.16 80.37 138.74c26.91 21.64 57.59 36.1 86.05 41.33l-8.36 45.23a8 8 0 0 0 9 9.38L279 431c15.9 35.87 41.65 60.48 78.41 75l14.88 5.88l11.77-29.75l-14.88-5.89c-26.35-10.42-44.48-26.16-57-49.92l21.84-3.07a8 8 0 0 0 6.05-11.49l-20.49-41.16c25.98-12.87 51.49-35.18 71.42-63.33m-160.82 15.66c-41.26-16.32-76.3-52.7-91.45-94.94l-5.4-15.06l30.12-10.8l5.4 15.06c14.5 40.44 47.27 65.77 73.1 76l14.88 5.88l-11.77 29.76Z'/%3E%3C/svg%3E");
+}
+.game-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: first baseline;
+    height: 100%;
+}
+#q{
+    font-size: 30px;
+    font-weight: bold;
+}
+#a{
+    font-size: 30px;
+    font-weight:bold;
+    color: #555;
+    border-style:dotted;
+    border-width:2px;   
+    border-color:#555;
+    margin: 40px;
+    padding:20px;
+    border-radius:30%;
+}
+.a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #555;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #555;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+}
+#answers-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin:10px;
+}
+#back-a{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Cpath fill='%23000' d='M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64'/%3E%3Cpath fill='%23000' d='m237.2 512l265.5 265.3a32 32 0 0 1-45.4 45.4l-288-288a32 32 0 0 1 0-45.4l288-288a32 32 0 1 1 45.4 45.4z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+    }
+#back-a:hover{
+    color: #82c7af;
+}
+.buttons{
+    display: flex;
+    gap: 200px;
+    margin:30px;
+    flex-dircetion: row;
+    flex:first baseline;
+}
+#showA{
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-image: linear-gradient(-60deg, #edb2d5 0%, #f3bf77 100%);
+}
+#next{
+  padding: 10px 22px 0px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-image: linear-gradient(-60deg, #f3bf77 0%, #edb2d5 100%);
+}
