@@ -138,7 +138,8 @@ a{
     gap: 200px;
     margin:30px;
     flex-dircetion: row;
-    flex:first baseline;
+    align-ditems: center;
+    flex: baseline;
 }
 input{
     font-size: 20px;
