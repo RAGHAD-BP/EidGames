@@ -37,8 +37,15 @@ function loadQuestion() {
 
 function showAnswer() {
     const q = questions[current];
+    const input = document.getElementById('Wa').value.trim().toLowerCase();
+    
     q.answers.forEach((ans, i) => {
-        document.getElementById(`a${i}`).textContent = `${i + 1}. ${ans}`;
+        const cell = document.getElementById(`a${i}`);
+        const ansNorm = ans.trim().toLowerCase();
+        if (cell.textContent !== '') return;
+        if (input === '' || ansNorm.includes(input) || input.includes(ansNorm)) {
+            cell.textContent = `${i + 1}. ${ans}`;
+        }
     });
 }
 
