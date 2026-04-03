@@ -167,8 +167,8 @@ input{
 }
 
 @media (max-width:1000px){
-    .box {
-
+     h1{
+        text-align:center;
     }
 }
 @media (max-width:500px) {
